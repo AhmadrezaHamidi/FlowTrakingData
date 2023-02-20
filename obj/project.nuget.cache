@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "YxcRYbSz9IigP4SsIEM/5wtbd1xoceG1re89jcZyKWNHvv7dcxRP4irUz8/9CCUH0O9d+39Mfz1WsoDnJng5jQ==",
+  "success": true,
+  "projectFilePath": "F:\\Project\\FlowTracking\\FlowTracking.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.2.164/NugetServer/Nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
