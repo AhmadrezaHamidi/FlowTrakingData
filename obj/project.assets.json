@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\FlowTracking\\FlowTracking.csproj",
+      "projectUniqueName": "F:\\AhmadProjectSample\\bara github\\FlowTrakingData\\FlowTracking.csproj",
       "projectName": "FlowTracking",
-      "projectPath": "F:\\Project\\FlowTracking\\FlowTracking.csproj",
+      "projectPath": "F:\\AhmadProjectSample\\bara github\\FlowTrakingData\\FlowTracking.csproj",
       "packagesPath": "C:\\Users\\a.hamidi\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\FlowTracking\\obj\\",
+      "outputPath": "F:\\AhmadProjectSample\\bara github\\FlowTrakingData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\a.hamidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
