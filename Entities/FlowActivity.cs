@@ -4,6 +4,22 @@
 
     public class FlowActivity
     {
+        public FlowActivity(string uniqeId, int pervioseId,
+            string pervioseUniqeId, DateTime createdAt,
+            string flowUniqeId, int flowActivityTypeId, string flowActivityTypeName,
+            string flowActivityTypeTitle, int priority)
+        {
+            UniqeId = uniqeId;
+            PervioseId = pervioseId;
+            PervioseUniqeId = pervioseUniqeId;
+            CreatedAt = createdAt;
+            FlowUniqeId = flowUniqeId;
+            FlowActivityTypeId = flowActivityTypeId;
+            FlowActivityTypeName = flowActivityTypeName;
+            FlowActivityTypeTitle = flowActivityTypeTitle;
+            Priority = priority;
+        }
+
         public int Id { get; set; }
 
         public string UniqeId { get; set; }
@@ -14,11 +30,11 @@
 
         public DateTime CreatedAt { get; set; }
 
-        public string FlowId { get; set; }
+        public int FlowId { get; set; }
 
         public string FlowUniqeId { get; set; }
 
-        public string FlowActivityTypeId { get; set; }
+        public int FlowActivityTypeId { get; set; }
 
         public string FlowActivityTypeName { get; set; }
 
@@ -33,16 +49,16 @@
 
     public class FlowActivityType
     {
-        public int TypeId { get; set; }
-        public string TypeName { get; set; }
-        public string TypeTitle { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Title { get; set; }
         public string FlowTypeId { get; set; }
 
-        public FlowActivityType(int typeId, string typeName, string typeTitle)
+        public FlowActivityType(int id, string name, string title)
         {
-            TypeId = typeId;
-            TypeName = typeName;
-            TypeTitle = typeTitle;
+            Id = id;
+            Name = name;
+            Title = title;
         }
     }
 
@@ -75,7 +91,7 @@
             _flowTypectivities.Add("2", stepTwo);
             var stepThree = new FlowActivityType(30, "step3", "دریافت");
             _flowTypectivities.Add("3", stepTwo);
-            var stepFour = new FlowActivityType(40, "step4", "دریافت");
+            var stepFour = new FlowActivityType(40, "Start", "شروع");
             _flowTypectivities.Add("4", stepTwo);
         }
 
@@ -87,7 +103,7 @@
 
         public FlowActivityType GetById(int typeId)
         {
-            var flowType = _flowTypectivities.Values.FirstOrDefault(x => x.TypeId == typeId);
+            var flowType = _flowTypectivities.Values.FirstOrDefault(x => x.Id == typeId) ?? _flowTypectivities["0"];
             return flowType;
         }
 
@@ -110,7 +126,7 @@
         {
             get
             {
-                var flowType = _flowTypectivities.Values.FirstOrDefault(x => x.TypeId == typeId);
+                var flowType = _flowTypectivities.Values.FirstOrDefault(x => x.Id == typeId) ?? _flowTypectivities["0"];
                 return flowType;
             }
         }

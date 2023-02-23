@@ -1,30 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Houshmand.Framework.WorkFlow.Entities
 {
-
     #region Status
 
-    public class Status : BaseEntity
+    public class Status
     {
-        public string StatusTypeId { get; set; }
+        public Status(string uniqeId, DateTime createdAt,
+            int statusTypeId, string statusTypeName,
+            string statusTypeTitle, string flowActivityUniqueId)
+        {
+            UniqeId = uniqeId;
+            CreatedAt = createdAt;
+            StatusTypeId = statusTypeId;
+            StatusTypeName = statusTypeName;
+            StatusTypeTitle = statusTypeTitle;
+            FlowActivityUniqueId = flowActivityUniqueId;
+        }
+
+        public int Id { get; set; }
+        public string UniqeId { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public int StatusTypeId { get; set; }
         public string StatusTypeName { get; set; }
         public string StatusTypeTitle { get; set; }
-        public string FlowActivityId { get; set; }
+        public int FlowActivityId { get; set; }
+        public string FlowActivityUniqueId { get; set; }
     }
 
     #endregion
-
-
-
-
-
-
-
 
     #region StatusType
 
@@ -43,15 +49,6 @@ namespace Houshmand.Framework.WorkFlow.Entities
     }
 
     #endregion
-
-
-
-
-
-
-
-
-
 
     #region FlowTypeCollection
     public class StatusTypeCollection
@@ -80,6 +77,10 @@ namespace Houshmand.Framework.WorkFlow.Entities
             _flowTypes.Add("20", retryStatus);
             var failedInstance = new StatusType(30, "Failed", "ناموفق");
             _flowTypes.Add("30", failedInstance);
+            var finalnstance = new StatusType(40, "Final", "مرحله پایانی ");
+            _flowTypes.Add("30", failedInstance);
+            var initnstance = new StatusType(50, "Init", "امادکی  ");
+            _flowTypes.Add("40", failedInstance);
         }
 
         private readonly Dictionary<string, StatusType> _flowTypes = new();
@@ -122,20 +123,4 @@ namespace Houshmand.Framework.WorkFlow.Entities
 
     }
     #endregion
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
