@@ -1,68 +1,94 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Houshmand.Framework.WorkFlow.Entities
 {
-
     #region flow
-    public class Flow 
-    {
 
+    [Table("Flow")]
+    public class Flow
+    {
+        private Version _version = new("0.0.1");
+
+        public Flow(string uniqeId, DateTime createdAt,
+            Version version, int userId,
+            int flowTypeId, string flowTypeName,
+            string flowTypeTitle)
+        {
+            UniqeId = uniqeId;
+            CreatedAt = createdAt;
+            Version = version;
+            UserId = userId;
+            FlowTypeId = flowTypeId;
+            FlowTypeName = flowTypeName;
+            FlowTypeTitle = flowTypeTitle;
+        }
+
+        [Column("Id")]
         public int Id { get; set; }
-        
-        public string UniqeId { get; set; }
-        
+
+        public string UniqeId { get; set; } 
+
+
         public DateTime CreatedAt { get; set; }
 
-        public Version Version { get; set; }
-        
+        [Column("Version")]
+        public string VersionName { get; private set; } = "0.0.1";
+
+        [NotMapped]
+        public Version Version
+        {
+            get { return _version; }
+            set
+            {
+                _version = value;
+                VersionName = _version.ToString();
+            }
+        }
+
         public int UserId { get; set; }
 
         public int FlowTypeId { get; set; }
-        
+
         public string FlowTypeName { get; set; }
-        
+
         public string FlowTypeTitle { get; set; }
-
     }
-    #endregion
 
-
-
-
+    #endregion flow
 
     #region FlowType
 
     public class FlowType
     {
-        public FlowType(int typeId, string typeName, string typeTitle)
+        public FlowType(int id, string name, string title, int period)
         {
-            TypeId = typeId;
-            TypeName = typeName;
-            TypeTitle = typeTitle;
+            Id = id;
+            Name = name;
+            Title = title;
+            Period = period;
         }
 
-        public int TypeId { get; set; }
-        public string TypeName { get; set; }
-        public string TypeTitle { get; set; }
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string Title { get; set; }
+
+        /// <summary>
+        /// minutes
+        /// </summary>
+        public int Period { get; set; }
     }
 
-    #endregion
-
-
-
+    #endregion FlowType
 
     #region FlowTypeCollection
+
     public class FlowTypeCollection
     {
         public FlowTypeCollection()
         {
             CreateFlowTypeCollection();
         }
-
 
         public static FlowTypeCollection Instance
         {
@@ -74,26 +100,27 @@ namespace Houshmand.Framework.WorkFlow.Entities
 
         public void CreateFlowTypeCollection()
         {
-            var DefaltInstance = new FlowType(0, "DefaltInstance", "پیش فرض ");
+            var DefaltInstance = new FlowType(0, "DefaltInstance", "پیش فرض ", 0);
             _flowTypes.Add("0", DefaltInstance);
-            var CardTransferActionInstance = new FlowType(10, "CardTransferAction", "کارت به کارت ");
+            var CardTransferActionInstance = new FlowType(10, "CardTransferAction", "کارت به کارت", 10);
             _flowTypes.Add("1", CardTransferActionInstance);
-            var CardBalanceInstance = new FlowType(20, "CardBalance", "مانده کارت");
+            var CardBalanceInstance = new FlowType(20, "CardBalance", "مانده کارت", 2);
             _flowTypes.Add("2", CardBalanceInstance);
-            var CardCirculationInstance = new FlowType(30, "CardCirculation", "گردش");
+            var CardCirculationInstance = new FlowType(30, "CardCirculation", "گردش", 3);
             _flowTypes.Add("3", CardCirculationInstance);
         }
 
         private readonly Dictionary<string, FlowType> _flowTypes = new();
+
         private static readonly Lazy<FlowTypeCollection> lazy = new(() => new FlowTypeCollection());
 
         public int Count
         { get { return _flowTypes.Count; } }
 
-
         public FlowType GetById(int id)
         {
-            var flowType = _flowTypes.Values.FirstOrDefault(x => x.TypeId == id);
+            var flowType = _flowTypes.Values.FirstOrDefault(x => x.Id == id) ?? _flowTypes["0"];
+
             return flowType;
         }
 
@@ -116,13 +143,11 @@ namespace Houshmand.Framework.WorkFlow.Entities
         {
             get
             {
-                var flowType = _flowTypes.Values.FirstOrDefault(x => x.TypeId == typeId);
+                var flowType = _flowTypes.Values.FirstOrDefault(x => x.Id == typeId) ?? _flowTypes["0"];
                 return flowType;
             }
         }
-
-
     }
-    #endregion
 
+    #endregion FlowTypeCollection
 }
