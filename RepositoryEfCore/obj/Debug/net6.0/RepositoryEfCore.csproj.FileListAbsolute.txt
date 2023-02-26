@@ -1,0 +1,12 @@
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.csproj.AssemblyReference.cache
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.AssemblyInfoInputs.cache
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.AssemblyInfo.cs
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.csproj.CoreCompileInputs.cache
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\bin\Debug\net6.0\RepositoryEfCore.deps.json
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\bin\Debug\net6.0\RepositoryEfCore.dll
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\bin\Debug\net6.0\RepositoryEfCore.pdb
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.dll
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\obj\Debug\net6.0\refint\RepositoryEfCore.dll
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.pdb
+F:\AhmadProjectSample\TrackingData\Solution1\RepositoryEfCore\obj\Debug\net6.0\ref\RepositoryEfCore.dll

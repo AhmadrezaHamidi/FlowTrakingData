@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingDataApi", "TrackingDataApi\TrackingDataApi.csproj", "{FAD00997-28F9-4B79-9A9A-A044348F4B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryEfCore", "RepositoryEfCore\RepositoryEfCore.csproj", "{4EDD2C4B-AE5F-4E9E-969E-F3E4D4732773}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAD00997-28F9-4B79-9A9A-A044348F4B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD00997-28F9-4B79-9A9A-A044348F4B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD00997-28F9-4B79-9A9A-A044348F4B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD00997-28F9-4B79-9A9A-A044348F4B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDD2C4B-AE5F-4E9E-969E-F3E4D4732773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDD2C4B-AE5F-4E9E-969E-F3E4D4732773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDD2C4B-AE5F-4E9E-969E-F3E4D4732773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDD2C4B-AE5F-4E9E-969E-F3E4D4732773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FDDA061-B117-4E09-95BC-9E8570F95D2B}
+	EndGlobalSection
+EndGlobal
