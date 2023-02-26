@@ -1,0 +1,5 @@
+/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/obj/Debug/net6.0/WorkFlow.csproj.AssemblyReference.cache
+/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/obj/Debug/net6.0/WorkFlow.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/obj/Debug/net6.0/WorkFlow.AssemblyInfoInputs.cache
+/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/obj/Debug/net6.0/WorkFlow.AssemblyInfo.cs
+/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/obj/Debug/net6.0/WorkFlow.csproj.CoreCompileInputs.cache

@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace WorkFlow.Entities
 {
-    #region Status
 
     public class Status
     {
@@ -32,9 +31,7 @@ namespace WorkFlow.Entities
         public string FlowActivityUniqueId { get; set; }
     }
 
-    #endregion
 
-    #region StatusType
 
     public class StatusType
     {
@@ -50,9 +47,7 @@ namespace WorkFlow.Entities
         public string Title { get; set; }
     }
 
-    #endregion
 
-    #region FlowTypeCollection
     public class StatusTypeCollection
     {
         public StatusTypeCollection()
@@ -130,5 +125,4 @@ namespace WorkFlow.Entities
 
 
     }
-    #endregion
 }

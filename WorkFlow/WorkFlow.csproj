@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RepositoryEfCore\RepositoryEfCore.csproj" />
+    <ProjectReference Include="..\TrackingDataApi\TrackingDataApi.csproj" />
+  </ItemGroup>
 </Project>

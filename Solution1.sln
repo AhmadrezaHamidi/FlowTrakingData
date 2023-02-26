@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingDataApi", "Tracking
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryEfCore", "RepositoryEfCore\RepositoryEfCore.csproj", "{4EDD2C4B-AE5F-4E9E-969E-F3E4D4732773}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkFlow", "WorkFlow\WorkFlow.csproj", "{7C0171BA-FDB5-419E-B542-3FBD22D60ADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4EDD2C4B-AE5F-4E9E-969E-F3E4D4732773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EDD2C4B-AE5F-4E9E-969E-F3E4D4732773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EDD2C4B-AE5F-4E9E-969E-F3E4D4732773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0171BA-FDB5-419E-B542-3FBD22D60ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0171BA-FDB5-419E-B542-3FBD22D60ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0171BA-FDB5-419E-B542-3FBD22D60ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0171BA-FDB5-419E-B542-3FBD22D60ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

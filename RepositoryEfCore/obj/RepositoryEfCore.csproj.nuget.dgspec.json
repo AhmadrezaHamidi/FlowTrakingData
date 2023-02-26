@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj": {}
+    "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj": {}
   },
   "projects": {
-    "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj": {
+    "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj",
+        "projectUniqueName": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj",
         "projectName": "RepositoryEfCore",
-        "projectPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj",
-        "packagesPath": "C:\\Users\\a.hamidi\\.nuget\\packages\\",
-        "outputPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\obj\\",
+        "projectPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj",
+        "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
+        "outputPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.hamidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.2.164/NugetServer/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,12 +70,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
