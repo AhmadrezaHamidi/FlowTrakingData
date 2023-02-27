@@ -17,13 +17,13 @@
 
         public void CreateFlowTypeCollection()
         {
-            var DefaltInstance = new FlowType(0, "DefaltInstance", "پیش فرض ", 0);
+            var DefaltInstance = new FlowType("DefaltInstance", "پیش فرض ", 0);
             _flowTypes.Add("0", DefaltInstance);
-            var CardTransferActionInstance = new FlowType(10, "CardTransferAction", "کارت به کارت", 10);
+            var CardTransferActionInstance = new FlowType( "CardTransferAction", "کارت به کارت", 10);
             _flowTypes.Add("1", CardTransferActionInstance);
-            var CardBalanceInstance = new FlowType(20, "CardBalance", "مانده کارت", 2);
+            var CardBalanceInstance = new FlowType("CardBalance", "مانده کارت", 2);
             _flowTypes.Add("2", CardBalanceInstance);
-            var CardCirculationInstance = new FlowType(30, "CardCirculation", "گردش", 3);
+            var CardCirculationInstance = new FlowType("CardCirculation", "گردش", 3);
             _flowTypes.Add("3", CardCirculationInstance);
         }
 
@@ -34,7 +34,7 @@
         public int Count
         { get { return _flowTypes.Count; } }
 
-        public FlowType GetById(int id)
+        public FlowType GetById(string id)
         {
             var flowType = _flowTypes.Values.FirstOrDefault(x => x.Id == id) ?? _flowTypes["0"];
 
@@ -56,14 +56,6 @@
             }
         }
 
-        public FlowType this[int typeId]
-        {
-            get
-            {
-                var flowType = _flowTypes.Values.FirstOrDefault(x => x.Id == typeId) ?? _flowTypes["0"];
-                return flowType;
-            }
-        }
     }
 
 }

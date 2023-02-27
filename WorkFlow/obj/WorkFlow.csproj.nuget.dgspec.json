@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/WorkFlow.csproj": {}
+    "F:\\AhmadProjectSample\\TrackingData\\Solution1\\WorkFlow\\WorkFlow.csproj": {}
   },
   "projects": {
-    "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj": {
+    "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj",
+        "projectUniqueName": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj",
         "projectName": "RepositoryEfCore",
-        "projectPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj",
-        "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
-        "outputPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/obj/",
+        "projectPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj",
+        "packagesPath": "C:\\Users\\a.hamidi\\.nuget\\packages\\",
+        "outputPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\a.hamidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.2.164/NugetServer/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,49 +73,42 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/TrackingDataApi/TrackingDataApi.csproj": {
+    "F:\\AhmadProjectSample\\TrackingData\\Solution1\\TrackingDataApi\\TrackingDataApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/TrackingDataApi/TrackingDataApi.csproj",
+        "projectUniqueName": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\TrackingDataApi\\TrackingDataApi.csproj",
         "projectName": "TrackingDataApi",
-        "projectPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/TrackingDataApi/TrackingDataApi.csproj",
-        "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
-        "outputPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/TrackingDataApi/obj/",
+        "projectPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\TrackingDataApi\\TrackingDataApi.csproj",
+        "packagesPath": "C:\\Users\\a.hamidi\\.nuget\\packages\\",
+        "outputPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\TrackingDataApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\a.hamidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.2.164/NugetServer/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj": {
-                "projectPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj"
+              "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj": {
+                "projectPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj"
               }
             }
           }
@@ -171,20 +167,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -193,37 +175,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/WorkFlow.csproj": {
+    "F:\\AhmadProjectSample\\TrackingData\\Solution1\\WorkFlow\\WorkFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/WorkFlow.csproj",
+        "projectUniqueName": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\WorkFlow\\WorkFlow.csproj",
         "projectName": "WorkFlow",
-        "projectPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/WorkFlow.csproj",
-        "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
-        "outputPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/obj/",
+        "projectPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\WorkFlow\\WorkFlow.csproj",
+        "packagesPath": "C:\\Users\\a.hamidi\\.nuget\\packages\\",
+        "outputPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\WorkFlow\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\a.hamidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.2.164/NugetServer/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj": {
-                "projectPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj"
+              "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj": {
+                "projectPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj"
               },
-              "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/TrackingDataApi/TrackingDataApi.csproj": {
-                "projectPath": "/Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/TrackingDataApi/TrackingDataApi.csproj"
+              "F:\\AhmadProjectSample\\TrackingData\\Solution1\\TrackingDataApi\\TrackingDataApi.csproj": {
+                "projectPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\TrackingDataApi\\TrackingDataApi.csproj"
               }
             }
           }
@@ -248,22 +233,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

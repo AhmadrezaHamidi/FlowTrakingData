@@ -17,15 +17,15 @@
 
         public void CreateFlowActivityTypeCollection()
         {
-            var stepOne = new FlowActivityType(20, "OriginCard", "مبدا  استعلام کارت ", 2);
+            var stepOne = new FlowActivityType("OriginCard", "مبدا  استعلام کارت ", 2);
             _flowTypectivities.Add("1", stepOne);
-            var stepTwo = new FlowActivityType(30, "Destination Card inquiry", "دریافت کارت مقضد ", 3);
+            var stepTwo = new FlowActivityType("Destination Card inquiry", "دریافت کارت مقضد ", 3);
             _flowTypectivities.Add("2", stepTwo);
-            var stepThree = new FlowActivityType(40, "CartToCart", "عملیات کارت به کارت ", 4);
+            var stepThree = new FlowActivityType("CartToCart", "عملیات کارت به کارت ", 4);
             _flowTypectivities.Add("3", stepTwo);
-            var stepFour = new FlowActivityType(10, "Start", "شروع", 1);
+            var stepFour = new FlowActivityType("Start", "شروع", 1);
             _flowTypectivities.Add("4", stepTwo);
-            var stepfifth = new FlowActivityType(50, "End", "پایان ", 5);
+            var stepfifth = new FlowActivityType("End", "پایان ", 5);
             _flowTypectivities.Add("5", stepTwo);
         }
 
@@ -35,7 +35,7 @@
         public int Count
         { get { return _flowTypectivities.Count; } }
 
-        public FlowActivityType GetById(int typeId)
+        public FlowActivityType GetById(string typeId)
         {
             var flowType = _flowTypectivities.Values.FirstOrDefault(x => x.Id == typeId) ?? _flowTypectivities["0"];
             return flowType;
@@ -56,14 +56,6 @@
             }
         }
 
-        public FlowActivityType this[int typeId]
-        {
-            get
-            {
-                var flowType = _flowTypectivities.Values.FirstOrDefault(x => x.Id == typeId) ?? _flowTypectivities["0"];
-                return flowType;
-            }
-        }
     }
 
 }

@@ -3,3 +3,8 @@
 /Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/obj/Debug/net6.0/WorkFlow.AssemblyInfoInputs.cache
 /Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/obj/Debug/net6.0/WorkFlow.AssemblyInfo.cs
 /Users/ahmadhfr/Documents/GITHUb/FlowTrakingData/WorkFlow/obj/Debug/net6.0/WorkFlow.csproj.CoreCompileInputs.cache
+F:\AhmadProjectSample\TrackingData\Solution1\WorkFlow\obj\Debug\net6.0\WorkFlow.csproj.AssemblyReference.cache
+F:\AhmadProjectSample\TrackingData\Solution1\WorkFlow\obj\Debug\net6.0\WorkFlow.GeneratedMSBuildEditorConfig.editorconfig
+F:\AhmadProjectSample\TrackingData\Solution1\WorkFlow\obj\Debug\net6.0\WorkFlow.AssemblyInfoInputs.cache
+F:\AhmadProjectSample\TrackingData\Solution1\WorkFlow\obj\Debug\net6.0\WorkFlow.AssemblyInfo.cs
+F:\AhmadProjectSample\TrackingData\Solution1\WorkFlow\obj\Debug\net6.0\WorkFlow.csproj.CoreCompileInputs.cache

@@ -31,7 +31,7 @@ namespace TrackingDataApi
     {
         public UserEntity(string email, string passWordHash, string passWordSalt, string phone)
         {
-            Id = Guid.NewGuid();
+            Id = Guid.NewGuid().ToString();
             IsDeleted = false;
             CreatedAt = DateTime.Now;
             UpdatedAt = null;
@@ -73,7 +73,7 @@ namespace TrackingDataApi
 
     public abstract class EntityBase
     {
-        public Guid Id { get; protected set; } = Guid.NewGuid();
+        public string Id { get; protected set; } = Guid.NewGuid().ToString();
         public DateTime CreatedAt { get; protected set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; protected set; }
         public bool IsDeleted { get; set; } = false;
