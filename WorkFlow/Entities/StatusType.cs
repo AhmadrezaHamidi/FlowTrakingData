@@ -73,9 +73,9 @@ namespace WorkFlow.Entities
         { get { return _flowTypes.Count; } }
 
 
-        public StatusType GetById(int id)
+        public StatusType GetById(string id)
         {
-            var flowType = _flowTypes.Values.FirstOrDefault(x => x.Id == id);
+            var flowType = _flowTypes.Values.FirstOrDefault(x => x.Id.Equals(id));
             return flowType;
         }
         public StatusType GetByName(string name)

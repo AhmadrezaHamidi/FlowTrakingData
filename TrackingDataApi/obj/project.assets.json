@@ -10147,35 +10147,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a.hamidi\\.nuget\\packages\\": {}
+    "/Users/ahmadhfr/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\TrackingDataApi\\TrackingDataApi.csproj",
+      "projectUniqueName": "/Users/ahmadhfr/Documents/work/project/FlowTrakingData/TrackingDataApi/TrackingDataApi.csproj",
       "projectName": "TrackingDataApi",
-      "projectPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\TrackingDataApi\\TrackingDataApi.csproj",
-      "packagesPath": "C:\\Users\\a.hamidi\\.nuget\\packages\\",
-      "outputPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\TrackingDataApi\\obj\\",
+      "projectPath": "/Users/ahmadhfr/Documents/work/project/FlowTrakingData/TrackingDataApi/TrackingDataApi.csproj",
+      "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
+      "outputPath": "/Users/ahmadhfr/Documents/work/project/FlowTrakingData/TrackingDataApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\a.hamidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://192.168.2.164/NugetServer/Nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj": {
-              "projectPath": "F:\\AhmadProjectSample\\TrackingData\\Solution1\\RepositoryEfCore\\RepositoryEfCore.csproj"
+            "/Users/ahmadhfr/Documents/work/project/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj": {
+              "projectPath": "/Users/ahmadhfr/Documents/work/project/FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj"
             }
           }
         }
@@ -10234,6 +10231,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -10242,16 +10253,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.2.164/NugetServer/Nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }
