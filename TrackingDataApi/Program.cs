@@ -6,7 +6,7 @@ using System;
 using TrackingDataApi;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection.Metadata;
-
+using WorkFlow;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,11 +23,11 @@ IConfigurationRoot configuration = new ConfigurationBuilder()
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen();
 
+var connectionString = configuration.GetConnectionString("DefultConnection");
 
-builder.Services
-             .AddDbContext<AppDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("defaultConnection")))
-             .AddUnitOfWork<AppDbContext>();
+builder.Services.AddWorkFlowContext(connectionString);
 
 var app = builder.Build();
 ///var  ttt = app.Services.GetServices<IUnitOfWork<AppDbContext>>();

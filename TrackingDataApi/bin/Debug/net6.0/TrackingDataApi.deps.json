@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.6",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
           "RepositoryEfCore": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "WorkFlow": "1.0.0"
         },
         "runtime": {
           "TrackingDataApi.dll": {}
@@ -499,22 +500,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.1.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.1.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.1.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.0.1.0"
           }
         }
       },
@@ -1950,6 +1951,16 @@
         },
         "runtime": {
           "RepositoryEfCore.dll": {}
+        }
+      },
+      "WorkFlow/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
+          "RepositoryEfCore": "1.0.0"
+        },
+        "runtime": {
+          "WorkFlow.dll": {}
         }
       }
     }
@@ -3410,6 +3421,11 @@
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
     },
     "RepositoryEfCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WorkFlow/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,13 +8,12 @@ using System.Reflection.Metadata;
 using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
-using TrackingDataApi;
 using WorkFlow.Entities;
 namespace WorkFlow
 {
-    public class WoekFlowContext : DbContext
+    public class WorkFlowContext : DbContext
     {
-        public WoekFlowContext(DbContextOptions<WoekFlowContext> options)
+        public WorkFlowContext(DbContextOptions<WorkFlowContext> options)
             : base(options)
         { }
 

@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RepositoryEfCore\RepositoryEfCore.csproj" />
+    <ProjectReference Include="..\WorkFlow\WorkFlow.csproj" />
   </ItemGroup>
 
 </Project>

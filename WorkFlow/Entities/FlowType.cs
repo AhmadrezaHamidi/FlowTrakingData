@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using TrackingDataApi;
+using RepositoryEfCore.Entities;
 
 namespace WorkFlow.Entities
 {

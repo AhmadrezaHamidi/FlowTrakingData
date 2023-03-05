@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using RepositoryEfCore.Entities;
 
 namespace TrackingDataApi
 {
@@ -9,23 +10,15 @@ namespace TrackingDataApi
             : base(options)
         {
         }
-
         //public DbSet<ThreadEntity> Threads{ get; set; }
         //public DbSet<ParticipantEntity> Participant { get; set; }
         //public DbSet<MessageEntity> Message { get; set; }
-
-
         public DbSet<UserEntity> Users { get; set; }
-
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
             base.OnModelCreating(modelBuilder);
         }
-
-
-
     }
     public class UserEntity : EntityBase
     {
@@ -61,31 +54,4 @@ namespace TrackingDataApi
             builder.ToTable($"tbl{nameof(UserEntity)}");
         }
     }
-
-
-    public interface IAggregateRoot
-    {
-    }
-
-    public interface ITxRequest
-    {
-    }
-
-    public abstract class EntityBase
-    {
-        public string Id { get; protected set; } = Guid.NewGuid().ToString();
-        public DateTime CreatedAt { get; protected set; } = DateTime.UtcNow;
-        public DateTime? UpdatedAt { get; protected set; }
-        public bool IsDeleted { get; set; } = false;
-    }
-
-
-    public abstract class BaseEntityTypeConfiguration<TBase> : IEntityTypeConfiguration<TBase> where TBase : EntityBase
-    {
-        public virtual void Configure(EntityTypeBuilder<TBase> entityTypeBuilder)
-        {
-            entityTypeBuilder.Property<byte[]>("RowVersion").IsRowVersion();
-        }
-    }
-
 }
