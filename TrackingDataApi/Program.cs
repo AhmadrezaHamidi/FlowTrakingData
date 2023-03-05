@@ -13,19 +13,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-//builder.Services.AddUnitOfWork<AppDbContext>();
-
-IConfigurationRoot configuration = new ConfigurationBuilder()
-    .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-    .AddJsonFile("appsettings.json")
-    .Build();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSwaggerGen();
 
-var connectionString = configuration.GetConnectionString("DefaultConnection");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddWorkFlowContext(connectionString);
 
@@ -38,7 +32,6 @@ var app = builder.Build();
 //var unitOfWork = ttt.FirstOrDefault();
 
 //var unitOfWork = builder.Services.AddUnitOfWork<AppDbContext>();
-
 //unitOfWork.dbco  DbContext.Database.GetAppliedMigrations();
 //unitOfWork.DbContext.Database.Migrate();
 
