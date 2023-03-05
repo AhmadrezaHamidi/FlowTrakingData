@@ -47,7 +47,7 @@ public class FlowActivityEntityTypeConfiguration : BaseEntityTypeConfiguration<F
         builder.Property(x => x.CreatedAt).HasDefaultValue("getDate()");
         builder.Property(x => x.UpdatedAt).HasDefaultValue(null);
         builder.Property(x => x.IsDeleted).HasDefaultValue(false);
-        builder.Property(x => x.PervioseId).IsRequired();
+        builder.Property(x => x.PervioseId);
         builder.Property(x => x.FlowId).IsRequired();
         builder.Property(x => x.FlowActivityTypeId).IsRequired();
         builder.Property(x => x.FlowActivityTypeName).IsRequired();

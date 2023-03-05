@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WorkFlow;
 
@@ -11,9 +12,11 @@ using WorkFlow;
 namespace WorkFlow.Migrations
 {
     [DbContext(typeof(WorkFlowContext))]
-    partial class WorkFlowContextModelSnapshot : ModelSnapshot
+    [Migration("20230305140341_initt")]
+    partial class initt
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

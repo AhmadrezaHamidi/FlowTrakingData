@@ -16,8 +16,8 @@ namespace WorkFlow.Entities;
 public class Flow : EntityBase
 {
     public Flow(
-        string version, int userId,
-        int flowTypeId, string flowTypeName,
+        string version, string userId,
+        string flowTypeId, string flowTypeName,
         string flowTypeTitle)
     {
         Id = Guid.NewGuid().ToString();
@@ -29,8 +29,8 @@ public class Flow : EntityBase
         FlowTypeTitle = flowTypeTitle;
     }
     public string Version { get; set; }
-    public int UserId { get; set; }
-    public int FlowTypeId { get; set; }
+    public string UserId { get; set; }
+    public string FlowTypeId { get; set; }
     public string FlowTypeName { get; set; }
     public string FlowTypeTitle { get; set; }
 }

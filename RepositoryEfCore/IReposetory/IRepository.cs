@@ -142,7 +142,7 @@ namespace RepositoryEfCore.IReposetory
         /// <param name="orderBy">A function to order elements.</param>
         /// <param name="include">A function to include navigation properties</param>
         /// <param name="disableTracking"><c>true</c> to disable changing tracking; otherwise, <c>false</c>. Default to <c>true</c>.</param>
-        /// <param name="ignoreQueryFilters">Ignore query filters</param>
+        /// <param name="ignoreQueryFilters">Ignore query filters</pa`ram>
         /// <returns>An <see cref="IPagedList{TEntity}"/> that contains elements that satisfy the condition specified by <paramref name="predicate"/>.</returns>
         /// <remarks>This method defaults to a read-only, no-tracking query.</remarks>
         TResult GetFirstOrDefault<TResult>(Expression<Func<TEntity, TResult>> selector,

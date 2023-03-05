@@ -7,242 +7,195 @@
 
 //namespace Houshmand.Framework.WorkFlow.Managers
 //{
-//    public class FlowTracking : IFlowTracking
-//    {
-//        private readonly IDataService<Flow> _flowService;
-//        private readonly IDataService<FlowType> _flowType;
-//        private readonly IDataService<FlowActivity> _flowActivityService;
-//        private readonly IDataService<Status> _status;
-//        private readonly IDataService<StatusType> _statusType;
-//        private readonly IDataService<FlowActivityType> _flowActivityType;
-//        private readonly UnitOfWork _unitOfWork;
+using RepositoryEfCore.IReposetory;
+using WorkFlow.Entities;
 
-//        public FlowTracking(string connection)
-//        {
-//            _unitOfWork = new(connection);
-//            _flowService = _unitOfWork.GetDataService<Flow>();
-//            _flowType = _unitOfWork.GetDataService<FlowType>();
-//            _flowActivityService = _unitOfWork.GetDataService<FlowActivity>();
-//            _status = _unitOfWork.GetDataService<Status>();
-//            _statusType = _unitOfWork.GetDataService<StatusType>();
-//            _flowActivityType = _unitOfWork.GetDataService<FlowActivityType>();
-//        }
+public class FlowTracking : IFlowTracking
+{
+    private readonly IUnitOfWork unitOfWork;
 
-//        public string CreateFlow(int flowTypeId, int userId, Version version)
-//        {
-//            var flowType = _flowType.FirstOrDefault("Id = @flowTypeId ", new { flowTypeId });
-//            if (flowType is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Can not found requested flow.");
+    public FlowTracking(IUnitOfWork unitOfWork)
+    {
+        this.unitOfWork = unitOfWork;
+    }
 
-//            var flowInstance = new Flow(Guid.NewGuid().ToString("N"),
-//                DateTime.Now,
-//                version,
-//                userId,
-//                flowType.Id,
-//                flowType.Name,
-//                flowType.Title);
+    public string CreateFlow(string flowTypeId, string userId, string version)
+    {
+        var _flowType = unitOfWork.GetRepository<FlowType>();
+        var _flowActivityType = unitOfWork.GetRepository<FlowActivityType>();
+        var _statusType = unitOfWork.GetRepository<StatusType>();
+        var _flowService = unitOfWork.GetRepository<Flow>();
+        var _flowActivityService = unitOfWork.GetRepository<FlowActivity>();
+        var _status = unitOfWork.GetRepository<Status>();
 
-//            var flowActivityType = _flowActivityType.FirstOrDefault("FlowTypeId = @FlowTypeId  AND Priority = 1",
-//                new { FlowTypeId = flowType.Id });
+        var flowType = _flowType.GetFirstOrDefault(predicate: x => x.Id == flowTypeId);
 
-//            if (flowActivityType is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Can not found requested flow Activity Type.");
+        if (flowType is null)
+            throw new Exception("Can not found requested flow.");
 
-//            var flowActivityInstance = new FlowActivity(
-//                Guid.NewGuid().ToString("N"),
-//                0,
-//                "",
-//                DateTime.Now,
-//                flowInstance.UniqeId,
-//                flowActivityType.Id,
-//                flowActivityType.Name,
-//                flowActivityType.Title,
-//                1);
+        var flowInstance = new Flow(
+            version,
+            userId,
+            flowType.Id,
+            flowType.Name,
+            flowType.Title);
 
-//            var status = _statusType.FirstOrDefault("Name = @Name", new { Name = "Success" });
-//            if (status is null)
-//                status = StatusTypeCollection.Instance.GetByName("Success");
-
-//            if (status is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Can not found requested status.");
-
-//            var statusInstance = new Status(Guid.NewGuid().ToString("N"), DateTime.Now,
-//                status.Id, status.Name
-//                , status.Title, flowActivityInstance.UniqeId);
-
-//            try
-//            {
-//                var id = _flowService.Insert(flowInstance, true);
-//                flowActivityInstance.FlowId = id;
-//                var flowActivityId = _flowActivityService.Insert(flowActivityInstance, true);
-//                statusInstance.FlowActivityId = flowActivityId;
-//                _status.Insert(statusInstance);
-
-//                return flowInstance.UniqeId;
-//            }
-//            catch (Exception ex)
-//            {
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.DataBaseFailed,
-//                    ExceptionLevel.Error,
-//                    $"Can not insert flow.", ex);
-//            }
-//        }
-
-//        public string GoToNextStep(string flow, int userId)
-//        {
-//            var flowFound = _flowService.FirstOrDefault("UniqeId = @UniqeId ", new { UniqeId = flow });
-//            if (flowFound is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Can not found requested flow.");
-
-//            var lastActitvity = _flowActivityService.LastOrDefault("FlowUniqeId = @FlowUniqeId", new { FlowUniqeId = flow });
-//            if (lastActitvity is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Can not found  flow Activity ");
-
-//            var successStatusId = _statusType.FirstOrDefault("Name = @Name", new { Name = "Success" });
-//            if (successStatusId is null)
-//                successStatusId = StatusTypeCollection.Instance["Success"];
-//            if (successStatusId is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Can not found success Status ");
-
-//            var lastActitvityState = _status.LastOrDefault("FlowActivityUniqueId = @FlowActivityUniqueId and StatusTypeId = @StatusTypeId ",
-//                new { FlowActivityUniqueId = lastActitvity.UniqeId, StatusTypeId = successStatusId.Id });
-//            if (lastActitvityState is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"last Actitvity is not success");
-
-//            var nextActivityType = _flowActivityType.FirstOrDefault("Priority = @Priority", new { Priority = lastActitvity.Priority + 1 });
-//            if (nextActivityType is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"this Actitvity was Ended");
-
-//            var flowActivityInstance = new FlowActivity(
-//               Guid.NewGuid().ToString("N"),
-//               lastActitvity.Id,
-//               lastActitvity.UniqeId,
-//               DateTime.Now,
-//               flow,
-//               nextActivityType.Id,
-//               nextActivityType.Name,
-//               nextActivityType.Title,
-//               lastActitvity.Priority + 1);
-
-//            var status = _statusType.FirstOrDefault("Name = @Name", new { Name = "Init" });
-//            if (status is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Can not found requested status.");
-
-//            var statusInstance = new Status(Guid.NewGuid().ToString("N"), DateTime.Now,
-//               status.Id, status.Name
-//               , status.Title, flowActivityInstance.UniqeId);
-
-//            try
-//            {
-//                _flowActivityService.Insert(flowActivityInstance);
-//                statusInstance.FlowActivityId = flowActivityInstance.Id;
-//                statusInstance.FlowActivityUniqueId = flowActivityInstance.UniqeId;
-//                _status.Insert(statusInstance);
-
-//                return flowActivityInstance.UniqeId;
-//            }
-//            catch (Exception ex)
-//            {
-//                throw new HoushmandBaseException(
-//                                  ExceptionCriteria.Framework,
-//                                  ExceptionType.DataBaseFailed,
-//                                  ExceptionLevel.Error,
-//                                  $"Can not insert flow.", ex);
-//            }
+        var flowActivityType = _flowActivityType.GetFirstOrDefault(predicate: x => x.Id == flowType.Id && x.Priority == 1);
 
 
-//        }
+        if (flowActivityType is null)
+            throw new Exception("Can not found requested flow Activity Type..");
 
-//        public bool SetStatus(string activityId, int StatusTypeId)
-//        {
-//            var res = false;
-//            var actvity = _flowActivityService.LastOrDefault("UniqeId = @UniqeId", new { UniqeId = activityId });
-//            if (actvity is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Can not found requested activity.");
 
-//            var lastActivity = _status.LastOrDefault("FlowActivityId = @FlowActivityId", new { FlowActivityId = actvity.PervioseUniqeId });
-//            if (lastActivity.StatusTypeName != "Success")
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Last Step is not status.");
+        var flowActivityInstance = new FlowActivity(
+            null,
+            flowInstance.Id,
+            flowActivityType.Id,
+            flowActivityType.Name,
+            flowActivityType.Title,
+            1);
 
-//            var status = _statusType.FirstOrDefault("Id = @Id", new { Id = StatusTypeId });
-//            if (status is null)
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.NotFound,
-//                    ExceptionLevel.Error,
-//                    $"Can not found requested status.");
+        var status = _statusType.GetFirstOrDefault(predicate: x => x.Name == "Success");
+        if (status is null)
+            status = StatusTypeCollection.Instance.GetByName("Success");
 
-//            var instance = new Status(Guid.NewGuid().ToString("N"), DateTime.Now, status.Id, status.Name, status.Title, activityId);
-//            try
-//            {
-//                _status.Insert(instance);
-//                res = true;
-//            }
-//            catch (Exception ex)
-//            {
-//                throw new HoushmandBaseException(
-//                    ExceptionCriteria.Framework,
-//                    ExceptionType.DataBaseFailed,
-//                    ExceptionLevel.Error,
-//                    $"Can not insert flow.", ex);
-//            }
+        if (status is null)
+            throw new Exception(
+                $"Can not found requested status.");
 
-//            return res;
-//        }
-//    }
+        var statusInstance = new Status(status.Id, status.Name
+            , status.Title, flowActivityInstance.Id);
 
-//    public interface IFlowTracking
-//    {
-//        string CreateFlow(int flowTypeId, int userId, Version version);
+        try
+        {
+            _flowService.Insert(flowInstance);
+            flowActivityInstance.FlowId = flowInstance.Id;
+            _flowActivityService.Insert(flowActivityInstance);
+            statusInstance.FlowActivityId = flowActivityInstance.Id;
+            _status.Insert(statusInstance);
 
-//        string GoToNextStep(string flow, int userId);
+            unitOfWork.SaveChanges();
+            return flowInstance.Id;
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("Can not insert flow.");
+        }
+    }
 
-//        bool SetStatus(string activityId, int StatusTypeId);
-//    }
-//}
+    public string GoToNextStep(string flow, string userId)
+    {
+        var _flowType = unitOfWork.GetRepository<FlowType>();
+        var _flowActivityType = unitOfWork.GetRepository<FlowActivityType>();
+        var _statusType = unitOfWork.GetRepository<StatusType>();
+        var _flowService = unitOfWork.GetRepository<Flow>();
+        var _flowActivityService = unitOfWork.GetRepository<FlowActivity>();
+        var _status = unitOfWork.GetRepository<Status>();
+
+        var flowFound = _flowService.GetFirstOrDefault(predicate: x => x.Id == flow);
+        if (flowFound is null)
+            throw new Exception("Can not found requested flow");
+
+
+        var lastActitvity = _flowActivityService
+            .GetFirstOrDefault(predicate: x => x.FlowId == flow, orderBy: y => y.OrderByDescending(z => z.CreatedAt));
+        if (lastActitvity is null)
+            throw new Exception("Can not found  flow Activity ");
+
+        var successStatusId = _statusType.GetFirstOrDefault(predicate: x => x.Name == "Success");
+        if (successStatusId is null)
+            successStatusId = StatusTypeCollection.Instance["Success"];
+
+        if (successStatusId is null)
+            throw new Exception($"Can not found success Status ");
+
+        var lastActitvityState = _status.GetFirstOrDefault(predicate: x => x.FlowActivityId == lastActitvity.Id &&
+        x.StatusTypeId == successStatusId.Id,
+            orderBy: y => y.OrderByDescending(z => z.CreatedAt));
+
+        if (lastActitvityState is null)
+            throw new Exception($"last Actitvity is not success");
+
+        var nextActivityType = _flowActivityType.GetFirstOrDefault(predicate: x => x.Priority == lastActitvity.Priority + 1);
+
+        if (nextActivityType is null)
+            throw new Exception($"this Actitvity was Ended");
+
+        var flowActivityInstance = new FlowActivity(
+           lastActitvity.Id,
+           flow,
+           nextActivityType.Id,
+           nextActivityType.Name,
+           nextActivityType.Title,
+           lastActitvity.Priority + 1);
+
+        var status = _statusType.GetFirstOrDefault(predicate: x => x.Name == "Init");
+
+        if (status is null)
+            throw new Exception(
+                $"Can not found requested status.");
+
+        var statusInstance = new Status(status.Id, status.Name
+           , status.Title, flowActivityInstance.Id);
+
+        try
+        {
+            _flowActivityService.Insert(flowActivityInstance);
+            statusInstance.FlowActivityId = flowActivityInstance.Id;
+            _status.Insert(statusInstance);
+
+            unitOfWork.SaveChanges();
+            return flowActivityInstance.Id;
+        }
+        catch (Exception ex)
+        {
+            throw new Exception($"Can not insert flow.", ex);
+        }
+    }
+
+    public bool SetStatus(string activityId, string StatusTypeId)
+    {
+        var _statusType = unitOfWork.GetRepository<StatusType>();
+        var _flowActivityService = unitOfWork.GetRepository<FlowActivity>();
+        var _status = unitOfWork.GetRepository<Status>();
+
+        var res = false;
+        var actvity = _flowActivityService.GetFirstOrDefault(predicate: x => x.Id == activityId,
+            orderBy: y => y.OrderByDescending(z => z.CreatedAt));
+
+        if (actvity is null)
+            throw new Exception($"Can not found requested activity.");
+
+        var lastActivity = _status.GetFirstOrDefault(predicate: x => x.FlowActivityId == actvity.PervioseId,
+            orderBy: y => y.OrderByDescending(z => z.CreatedAt));
+
+        if (lastActivity.StatusTypeName != "Success")
+            throw new Exception($"Last Step is not status.");
+
+        var status = _statusType.GetFirstOrDefault(predicate: x => x.Id == StatusTypeId);
+        if (status is null)
+            throw new Exception($"Can not found requested status.");
+
+        var instance = new Status(status.Id, status.Name, status.Title, activityId);
+        try
+        {
+            _status.Insert(instance);
+            unitOfWork.SaveChanges();
+            res = true;
+        }
+        catch (Exception ex)
+        {
+            throw new Exception($"Can not insert flow.", ex);
+        }
+
+        return res;
+    }
+}
+    public interface IFlowTracking
+    {
+        string CreateFlow(string flowTypeId, string userId, string version);
+
+        string GoToNextStep(string flow, string userId);
+
+        bool SetStatus(string activityId, string StatusTypeId);
+    }
