@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CVYfWvqjpcXTOuLc+Q1dsVZ9dkVSUgrdeiLlEh00OK00Q3cvuT1+Xk66f7K272IwuZj2kjMnya63DYHe+ypTsw==",
+  "dgSpecHash": "Rp99Hw2OvJlHZeV4zp6/hdHPlb5RZgF5Nh5lvU1fKa4SrREeYViOz9nCjmbLYr7JETvQkU1zmdJKD7DKBg/vGQ==",
   "success": true,
   "projectFilePath": "F:\\AhmadProjectSample\\Github\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj",
   "expectedPackageFiles": [
@@ -63,10 +63,8 @@
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.entityframeworkcore.autohistory\\5.0.8\\microsoft.entityframeworkcore.autohistory.5.0.8.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.3\\microsoft.entityframeworkcore.design.7.0.3.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.3\\microsoft.entityframeworkcore.relational.7.0.3.nupkg.sha512",
-    "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.entityframeworkcore.relational.design\\1.1.6\\microsoft.entityframeworkcore.relational.design.1.1.6.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.3\\microsoft.entityframeworkcore.sqlserver.7.0.3.nupkg.sha512",
-    "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver.design\\1.1.6\\microsoft.entityframeworkcore.sqlserver.design.1.1.6.nupkg.sha512",
-    "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.9\\microsoft.entityframeworkcore.tools.6.0.9.nupkg.sha512",
+    "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.3\\microsoft.entityframeworkcore.tools.7.0.3.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

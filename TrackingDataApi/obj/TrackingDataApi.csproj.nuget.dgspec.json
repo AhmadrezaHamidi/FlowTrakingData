@@ -59,7 +59,7 @@
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.11, )"
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
@@ -140,19 +140,19 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[7.0.3, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[1.1.6, )"
+              "version": "[7.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[7.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -231,7 +231,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -241,7 +245,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[7.0.3, )"
             }
           },
           "imports": [

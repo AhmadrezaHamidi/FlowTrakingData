@@ -11,9 +11,9 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.5",
           "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.6",
-          "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
           "RepositoryEfCore": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "WorkFlow": "1.0.0"
@@ -580,18 +580,6 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.3",
-          "NETStandard.Library": "1.6.1"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {
-            "assemblyVersion": "1.1.6.0",
-            "fileVersion": "1.1.6.40621"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.SqlServer/7.0.3": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.0.1",
@@ -604,20 +592,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
-          "NETStandard.Library": "1.6.1"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {
-            "assemblyVersion": "1.1.6.0",
-            "fileVersion": "1.1.6.40621"
-          }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/6.0.9": {
+      "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.3"
         }
@@ -1956,6 +1931,7 @@
       "WorkFlow/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
           "RepositoryEfCore": "1.0.0"
         },
@@ -2384,13 +2360,6 @@
       "path": "microsoft.entityframeworkcore.relational/7.0.3",
       "hashPath": "microsoft.entityframeworkcore.relational.7.0.3.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kz7C0Ddnge16NRf4CU8GygYxOor3+oQ797//eXI+xbKlJr2ighAEkno9gOipDlym4SiFtKNNuOuBI/BDBGD7Kg==",
-      "path": "microsoft.entityframeworkcore.relational.design/1.1.6",
-      "hashPath": "microsoft.entityframeworkcore.relational.design.1.1.6.nupkg.sha512"
-    },
     "Microsoft.EntityFrameworkCore.SqlServer/7.0.3": {
       "type": "package",
       "serviceable": true,
@@ -2398,19 +2367,12 @@
       "path": "microsoft.entityframeworkcore.sqlserver/7.0.3",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.3.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
+    "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nxdW1YfZtn3nbcFqIAbjo6vCbCNOx0g82qMv+9fTUsNTsW0KSENYc2pbjF3yO8ZqYdBjmx2gMfAGk6wjy5cldg==",
-      "path": "microsoft.entityframeworkcore.sqlserver.design/1.1.6",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.design.1.1.6.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/6.0.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-HqdzDohxXfh7onMfrKxI3qtRu+TF246dNVQ1Yjql7v69CfeKWFyRxLbuNG/ScGh9dZdXHDvNjqXb4Ou9GHflew==",
-      "path": "microsoft.entityframeworkcore.tools/6.0.9",
-      "hashPath": "microsoft.entityframeworkcore.tools.6.0.9.nupkg.sha512"
+      "sha512": "sha512-yHFlYPZS3Jx7JMCQnGKfJzv95rJWVcmcUn/OW5cbCyWgQk81JJpTZ9Q6kkvwquYjFRfvYHBGuXNIYhAJokOBTQ==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.3",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",

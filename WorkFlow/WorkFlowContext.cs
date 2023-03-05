@@ -17,6 +17,7 @@ namespace WorkFlow
             : base(options)
         { }
 
+
         public DbSet<Flow> Flows { get; set; }
         public DbSet<FlowActivity> FlowActivities  { get; set; }
         public DbSet<FlowType> FlowTypes { get; set; }
@@ -26,6 +27,7 @@ namespace WorkFlow
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.EnableAutoHistory(null);
         }
     }

@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddUnitOfWork<AppDbContext>();
+//builder.Services.AddUnitOfWork<AppDbContext>();
 
 IConfigurationRoot configuration = new ConfigurationBuilder()
     .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
@@ -25,7 +25,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSwaggerGen();
 
-var connectionString = configuration.GetConnectionString("DefultConnection");
+var connectionString = configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddWorkFlowContext(connectionString);
 

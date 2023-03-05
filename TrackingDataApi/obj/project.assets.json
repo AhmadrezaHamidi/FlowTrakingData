@@ -1075,23 +1075,6 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "1.1.6",
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.SqlServer/7.0.3": {
         "type": "package",
         "dependencies": {
@@ -1109,28 +1092,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
+      "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.6",
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/6.0.9": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "6.0.9"
+          "Microsoft.EntityFrameworkCore.Design": "7.0.3"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -3668,7 +3633,7 @@
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.AutoHistory": "5.0.8",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.11"
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.3"
         },
         "compile": {
           "bin/placeholder/RepositoryEfCore.dll": {}
@@ -3682,6 +3647,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
           "RepositoryEfCore": "1.0.0"
         },
@@ -4635,21 +4601,6 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
-      "sha512": "kz7C0Ddnge16NRf4CU8GygYxOor3+oQ797//eXI+xbKlJr2ighAEkno9gOipDlym4SiFtKNNuOuBI/BDBGD7Kg==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.relational.design/1.1.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.dll",
-        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.xml",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.xml",
-        "microsoft.entityframeworkcore.relational.design.1.1.6.nupkg.sha512",
-        "microsoft.entityframeworkcore.relational.design.nuspec"
-      ]
-    },
     "Microsoft.EntityFrameworkCore.SqlServer/7.0.3": {
       "sha512": "WXd8Mg12+LrfuVOfz0YUYsiaIKI0fLTdhN/WdQGxzGM3l86GLdpACUb30Y7oUpMG4YNegerEd0AVLlMpfwOjug==",
       "type": "package",
@@ -4664,32 +4615,17 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
-      "sha512": "nxdW1YfZtn3nbcFqIAbjo6vCbCNOx0g82qMv+9fTUsNTsW0KSENYc2pbjF3yO8ZqYdBjmx2gMfAGk6wjy5cldg==",
+    "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
+      "sha512": "yHFlYPZS3Jx7JMCQnGKfJzv95rJWVcmcUn/OW5cbCyWgQk81JJpTZ9Q6kkvwquYjFRfvYHBGuXNIYhAJokOBTQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver.design/1.1.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.Design.dll",
-        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.Design.xml",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.xml",
-        "microsoft.entityframeworkcore.sqlserver.design.1.1.6.nupkg.sha512",
-        "microsoft.entityframeworkcore.sqlserver.design.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Tools/6.0.9": {
-      "sha512": "HqdzDohxXfh7onMfrKxI3qtRu+TF246dNVQ1Yjql7v69CfeKWFyRxLbuNG/ScGh9dZdXHDvNjqXb4Ou9GHflew==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/6.0.9",
+      "path": "microsoft.entityframeworkcore.tools/7.0.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/_._",
-        "microsoft.entityframeworkcore.tools.6.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.7.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -10159,9 +10095,9 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.5",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
+      "Microsoft.EntityFrameworkCore.Relational >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
-      "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.9",
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
       "RepositoryEfCore >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "WorkFlow >= 1.0.0"
@@ -10228,19 +10164,19 @@
             "target": "Package",
             "version": "[7.0.3, )"
           },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[7.0.3, )"
           },
-          "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[1.1.6, )"
+            "version": "[7.0.3, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[6.0.9, )"
+            "version": "[7.0.3, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
