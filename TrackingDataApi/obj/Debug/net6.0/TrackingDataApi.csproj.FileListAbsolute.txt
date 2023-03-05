@@ -402,3 +402,4 @@ F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\sc
 F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.csproj.CopyComplete
 F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.genruntimeconfig.cache
 F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\ref\TrackingDataApi.dll
+F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Dockerfile

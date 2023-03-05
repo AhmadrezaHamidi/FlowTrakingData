@@ -1,0 +1,12 @@
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\bin\Release\net6.0\RepositoryEfCore.deps.json
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\bin\Release\net6.0\RepositoryEfCore.dll
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\bin\Release\net6.0\RepositoryEfCore.pdb
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Release\net6.0\RepositoryEfCore.csproj.AssemblyReference.cache
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Release\net6.0\RepositoryEfCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Release\net6.0\RepositoryEfCore.AssemblyInfoInputs.cache
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Release\net6.0\RepositoryEfCore.AssemblyInfo.cs
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Release\net6.0\RepositoryEfCore.csproj.CoreCompileInputs.cache
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Release\net6.0\RepositoryEfCore.dll
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Release\net6.0\refint\RepositoryEfCore.dll
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Release\net6.0\RepositoryEfCore.pdb
+F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Release\net6.0\ref\RepositoryEfCore.dll

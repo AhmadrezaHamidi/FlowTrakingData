@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Rp99Hw2OvJlHZeV4zp6/hdHPlb5RZgF5Nh5lvU1fKa4SrREeYViOz9nCjmbLYr7JETvQkU1zmdJKD7DKBg/vGQ==",
+  "dgSpecHash": "DA+r0L73miKOh/m7i0BXRK+sH33o6U8WUyupk2MjJOsomVd5DS3qiLCnurSy9UaSXC3y93FZA+1SPufAzNtJzw==",
   "success": true,
   "projectFilePath": "F:\\AhmadProjectSample\\Github\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj",
   "expectedPackageFiles": [
@@ -97,6 +97,7 @@
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\a.hamidi\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
