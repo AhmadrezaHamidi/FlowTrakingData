@@ -46,3 +46,15 @@ F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\R
 F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\refint\RepositoryEfCore.dll
 F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.pdb
 F:\AhmadProjectSample\Github\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\ref\RepositoryEfCore.dll
+D:\Source\FlowTrakingData\RepositoryEfCore\bin\Debug\net6.0\RepositoryEfCore.deps.json
+D:\Source\FlowTrakingData\RepositoryEfCore\bin\Debug\net6.0\RepositoryEfCore.dll
+D:\Source\FlowTrakingData\RepositoryEfCore\bin\Debug\net6.0\RepositoryEfCore.pdb
+D:\Source\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.csproj.AssemblyReference.cache
+D:\Source\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.AssemblyInfoInputs.cache
+D:\Source\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.AssemblyInfo.cs
+D:\Source\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.csproj.CoreCompileInputs.cache
+D:\Source\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.dll
+D:\Source\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\refint\RepositoryEfCore.dll
+D:\Source\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\RepositoryEfCore.pdb
+D:\Source\FlowTrakingData\RepositoryEfCore\obj\Debug\net6.0\ref\RepositoryEfCore.dll

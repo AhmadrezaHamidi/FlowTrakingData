@@ -1,0 +1,15 @@
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\Logging.csproj.AssemblyReference.cache
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\Logging.AssemblyInfoInputs.cache
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\Logging.AssemblyInfo.cs
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\Logging.csproj.CoreCompileInputs.cache
+D:\Source\FlowTrakingData\Logging\bin\Debug\net6.0\Logging.deps.json
+D:\Source\FlowTrakingData\Logging\bin\Debug\net6.0\Logging.dll
+D:\Source\FlowTrakingData\Logging\bin\Debug\net6.0\Logging.pdb
+D:\Source\FlowTrakingData\Logging\bin\Debug\net6.0\Core.dll
+D:\Source\FlowTrakingData\Logging\bin\Debug\net6.0\Core.pdb
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\Logging.csproj.CopyComplete
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\Logging.dll
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\refint\Logging.dll
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\Logging.pdb
+D:\Source\FlowTrakingData\Logging\obj\Debug\net6.0\ref\Logging.dll
