@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryEfCore", "Reposit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkFlow", "WorkFlow\WorkFlow.csproj", "{7C0171BA-FDB5-419E-B542-3FBD22D60ADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{8DCAD779-68DE-40B1-90EB-B414177DCF76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logging\Logging.csproj", "{8DCAD779-68DE-40B1-90EB-B414177DCF76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{13E73F72-7886-4E1E-90CD-D438AC2A7B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{13E73F72-7886-4E1E-90CD-D438AC2A7B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.Console", "Logging.Console\Logging.Console.csproj", "{BEBD2DB2-3CCC-417C-82E9-620103DDC5FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{13E73F72-7886-4E1E-90CD-D438AC2A7B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13E73F72-7886-4E1E-90CD-D438AC2A7B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13E73F72-7886-4E1E-90CD-D438AC2A7B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBD2DB2-3CCC-417C-82E9-620103DDC5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBD2DB2-3CCC-417C-82E9-620103DDC5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBD2DB2-3CCC-417C-82E9-620103DDC5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBD2DB2-3CCC-417C-82E9-620103DDC5FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
