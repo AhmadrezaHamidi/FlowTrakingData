@@ -8,19 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\a.ahmadi\\.nuget\\packages\\": {}
+    "C:\\Users\\Amirfoad\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source\\FlowTrakingData\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "D:\\Source\\FlowTrakingData\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\a.ahmadi\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\FlowTrakingData\\Core\\obj\\",
+      "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\Amirfoad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\a.ahmadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amirfoad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +32,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://192.168.2.164/NugetServer/Nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -52,8 +55,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -62,16 +64,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.2.164/NugetServer/Nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }
