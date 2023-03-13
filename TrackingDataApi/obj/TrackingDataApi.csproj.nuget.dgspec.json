@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Source\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj": {}
+    "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj": {}
   },
   "projects": {
-    "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj": {
+    "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj",
+        "projectUniqueName": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj",
         "projectName": "RepositoryEfCore",
-        "projectPath": "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj",
-        "packagesPath": "C:\\Users\\a.ahmadi\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\obj\\",
+        "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj",
+        "packagesPath": "C:\\Users\\Amirfoad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\RepositoryEfCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\a.ahmadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amirfoad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.2.164/NugetServer/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,8 +70,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -78,21 +79,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Source\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj": {
+    "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj",
+        "projectUniqueName": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj",
         "projectName": "TrackingDataApi",
-        "projectPath": "D:\\Source\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj",
-        "packagesPath": "C:\\Users\\a.ahmadi\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\FlowTrakingData\\TrackingDataApi\\obj\\",
+        "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\TrackingDataApi\\TrackingDataApi.csproj",
+        "packagesPath": "C:\\Users\\Amirfoad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\TrackingDataApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\a.ahmadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amirfoad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,18 +104,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.2.164/NugetServer/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj": {
-                "projectPath": "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj"
+              "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj": {
+                "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj"
               },
-              "D:\\Source\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj": {
-                "projectPath": "D:\\Source\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj"
+              "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj": {
+                "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj"
               }
             }
           }
@@ -169,8 +172,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -182,21 +184,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Source\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj": {
+    "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj",
+        "projectUniqueName": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj",
         "projectName": "WorkFlow",
-        "projectPath": "D:\\Source\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj",
-        "packagesPath": "C:\\Users\\a.ahmadi\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\FlowTrakingData\\WorkFlow\\obj\\",
+        "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\WorkFlow\\WorkFlow.csproj",
+        "packagesPath": "C:\\Users\\Amirfoad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\WorkFlow\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\a.ahmadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amirfoad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,15 +209,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.2.164/NugetServer/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj": {
-                "projectPath": "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj"
+              "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj": {
+                "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj"
               }
             }
           }
@@ -258,8 +262,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -268,7 +271,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

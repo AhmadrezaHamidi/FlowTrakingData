@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logging\Logging.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{13E73F72-7886-4E1E-90CD-D438AC2A7B59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.Console", "Logging.Console\Logging.Console.csproj", "{BEBD2DB2-3CCC-417C-82E9-620103DDC5FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging.Console", "Logging.Console\Logging.Console.csproj", "{BEBD2DB2-3CCC-417C-82E9-620103DDC5FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.File", "Logging.File\Logging.File.csproj", "{2782C5A0-1B70-4B7E-85DA-E8510CDD92E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging.File", "Logging.File\Logging.File.csproj", "{2782C5A0-1B70-4B7E-85DA-E8510CDD92E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.Elastic", "Logging.Elastic\Logging.Elastic.csproj", "{76F55F1D-D139-4E96-A844-F1AB7C385499}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2782C5A0-1B70-4B7E-85DA-E8510CDD92E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2782C5A0-1B70-4B7E-85DA-E8510CDD92E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2782C5A0-1B70-4B7E-85DA-E8510CDD92E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F55F1D-D139-4E96-A844-F1AB7C385499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F55F1D-D139-4E96-A844-F1AB7C385499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F55F1D-D139-4E96-A844-F1AB7C385499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F55F1D-D139-4E96-A844-F1AB7C385499}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
