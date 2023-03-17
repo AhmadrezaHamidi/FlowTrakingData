@@ -1,4 +1,8 @@
+
 # FlowTrakingData
+
+<img src="https://fileport.io/ZWLf7kXDeSq3" alt="Data" >
+
 
 "In the case of a simple request that we send to our API based on the business we have, we receive some data and some queries on our data. There is a possibility that an exception may occur due to any reason and for any further action. We use a tool called "FlowTracking" to manage the data.
 
