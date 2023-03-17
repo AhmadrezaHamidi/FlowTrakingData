@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CWNfXFKwPKgexraKZ5FV18Co9s+A/FqSz2Ffle91XJ44cNcxiAlENSWJNnOzuzOdReR6qVCnieuEScbZMRR5Uw==",
+  "dgSpecHash": "w9CGzMKacxiZgmVl4Dd6wfq111faDEEWTvk8S6NDjXwRBeLhakrMrybB1WhS/9V8n0ADC6LPkyknK2ifdSYKdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/ahmadhfr/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "/Users/ahmadhfr/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Logging\\Logging.csproj": {}
+    "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/Logging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\Core.csproj": {
+    "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\Core.csproj",
+        "projectUniqueName": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Amirfoad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\obj\\",
+        "projectPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj",
+        "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
+        "outputPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Amirfoad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,48 +43,54 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Logging\\Logging.csproj": {
+    "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Logging\\Logging.csproj",
+        "projectUniqueName": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/Logging.csproj",
         "projectName": "Logging",
-        "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Logging\\Logging.csproj",
-        "packagesPath": "C:\\Users\\Amirfoad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Logging\\obj\\",
+        "projectPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/Logging.csproj",
+        "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
+        "outputPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Amirfoad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Amirfoad\\source\\repos\\FlowTrakingData\\Core\\Core.csproj"
+              "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj": {
+                "projectPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj"
               }
             }
           }
@@ -109,16 +110,27 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

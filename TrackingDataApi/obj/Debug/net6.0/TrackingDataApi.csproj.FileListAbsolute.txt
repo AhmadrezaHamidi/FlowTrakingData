@@ -301,207 +301,309 @@ F:/AhmadProjectSample/TrackingData/Solution1/TrackingDataApi/obj/Debug/net6.0/Tr
 /Users/ahmadhfr/Documents/work/project/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.pdb
 /Users/ahmadhfr/Documents/work/project/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.genruntimeconfig.cache
 /Users/ahmadhfr/Documents/work/project/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/ref/TrackingDataApi.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.csproj.AssemblyReference.cache
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.GeneratedMSBuildEditorConfig.editorconfig
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.AssemblyInfoInputs.cache
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.AssemblyInfo.cs
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.csproj.CoreCompileInputs.cache
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.MvcApplicationPartsAssemblyInfo.cs
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.MvcApplicationPartsAssemblyInfo.cache
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\refint\TrackingDataApi.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.pdb
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\appsettings.Development.json
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\appsettings.json
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.exe
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.deps.json
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.runtimeconfig.json
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.pdb
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Azure.Core.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Azure.Identity.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Humanizer.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.AutoHistory.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Mono.TextTemplating.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Newtonsoft.Json.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.CodeDom.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Drawing.Common.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Memory.Data.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Runtime.Caching.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Security.Permissions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Text.Json.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Windows.Extensions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\RepositoryEfCore.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\WorkFlow.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\RepositoryEfCore.pdb
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\WorkFlow.pdb
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets\msbuild.TrackingDataApi.Microsoft.AspNetCore.StaticWebAssets.props
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets\msbuild.build.TrackingDataApi.props
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TrackingDataApi.props
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TrackingDataApi.props
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets.pack.json
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets.build.json
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets.development.json
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\scopedcss\bundle\TrackingDataApi.styles.css
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.csproj.CopyComplete
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.genruntimeconfig.cache
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\ref\TrackingDataApi.dll
-F:\AhmadProjectSample\Github\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Dockerfile
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\appsettings.Development.json
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\appsettings.json
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.exe
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Dockerfile
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.deps.json
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.runtimeconfig.json
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\TrackingDataApi.pdb
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Azure.Core.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Azure.Identity.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Humanizer.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.AutoHistory.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Mono.TextTemplating.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.CodeDom.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Memory.Data.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Runtime.Caching.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Text.Json.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\RepositoryEfCore.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\WorkFlow.dll
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\RepositoryEfCore.pdb
-D:\Source\FlowTrakingData\TrackingDataApi\bin\Debug\net6.0\WorkFlow.pdb
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.csproj.AssemblyReference.cache
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.GeneratedMSBuildEditorConfig.editorconfig
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.AssemblyInfoInputs.cache
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.AssemblyInfo.cs
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.csproj.CoreCompileInputs.cache
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.MvcApplicationPartsAssemblyInfo.cs
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.MvcApplicationPartsAssemblyInfo.cache
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets\msbuild.TrackingDataApi.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets\msbuild.build.TrackingDataApi.props
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TrackingDataApi.props
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TrackingDataApi.props
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets.pack.json
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets.build.json
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\staticwebassets.development.json
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\scopedcss\bundle\TrackingDataApi.styles.css
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.csproj.CopyComplete
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.dll
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\refint\TrackingDataApi.dll
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.pdb
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\TrackingDataApi.genruntimeconfig.cache
-D:\Source\FlowTrakingData\TrackingDataApi\obj\Debug\net6.0\ref\TrackingDataApi.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.csproj.AssemblyReference.cache
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.GeneratedMSBuildEditorConfig.editorconfig
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.AssemblyInfoInputs.cache
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.AssemblyInfo.cs
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.csproj.CoreCompileInputs.cache
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.MvcApplicationPartsAssemblyInfo.cs
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.MvcApplicationPartsAssemblyInfo.cache
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/refint/TrackingDataApi.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.pdb
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/appsettings.Development.json
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/appsettings.json
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.exe
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.deps.json
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.runtimeconfig.json
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.pdb
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Azure.Core.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Azure.Identity.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Humanizer.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.AutoHistory.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.OpenApi.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Mono.TextTemplating.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Newtonsoft.Json.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.CodeDom.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Drawing.Common.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Memory.Data.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Runtime.Caching.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Security.Permissions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Text.Json.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Windows.Extensions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/RepositoryEfCore.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/WorkFlow.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/RepositoryEfCore.pdb
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/WorkFlow.pdb
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.TrackingDataApi.Microsoft.AspNetCore.StaticWebAssets.props
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.build.TrackingDataApi.props
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.TrackingDataApi.props
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.TrackingDataApi.props
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets.pack.json
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets.build.json
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets.development.json
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/scopedcss/bundle/TrackingDataApi.styles.css
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.csproj.CopyComplete
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.genruntimeconfig.cache
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/ref/TrackingDataApi.dll
+F:/AhmadProjectSample/Github/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Dockerfile
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/appsettings.Development.json
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/appsettings.json
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.exe
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Dockerfile
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.deps.json
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.runtimeconfig.json
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.pdb
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Azure.Core.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Azure.Identity.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Humanizer.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.AutoHistory.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.OpenApi.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Mono.TextTemplating.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Newtonsoft.Json.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.CodeDom.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Drawing.Common.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Memory.Data.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Runtime.Caching.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Security.Permissions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Text.Json.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Windows.Extensions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/RepositoryEfCore.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/WorkFlow.dll
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/RepositoryEfCore.pdb
+D:/Source/FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/WorkFlow.pdb
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.csproj.AssemblyReference.cache
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.GeneratedMSBuildEditorConfig.editorconfig
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.AssemblyInfoInputs.cache
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.AssemblyInfo.cs
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.csproj.CoreCompileInputs.cache
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.MvcApplicationPartsAssemblyInfo.cs
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.MvcApplicationPartsAssemblyInfo.cache
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.TrackingDataApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.build.TrackingDataApi.props
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.TrackingDataApi.props
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.TrackingDataApi.props
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets.pack.json
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets.build.json
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets.development.json
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/scopedcss/bundle/TrackingDataApi.styles.css
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.csproj.CopyComplete
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.dll
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/refint/TrackingDataApi.dll
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.pdb
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.genruntimeconfig.cache
+D:/Source/FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/ref/TrackingDataApi.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/appsettings.Development.json
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/appsettings.json
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Dockerfile
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.deps.json
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.runtimeconfig.json
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/TrackingDataApi.pdb
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Azure.Core.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Azure.Identity.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Humanizer.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.AutoHistory.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.CodeDom.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Text.Json.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/RepositoryEfCore.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/WorkFlow.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/RepositoryEfCore.pdb
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/bin/Debug/net6.0/WorkFlow.pdb
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.csproj.AssemblyReference.cache
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.AssemblyInfoInputs.cache
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.AssemblyInfo.cs
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.csproj.CoreCompileInputs.cache
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.TrackingDataApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.build.TrackingDataApi.props
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.TrackingDataApi.props
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.TrackingDataApi.props
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets.build.json
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/staticwebassets.development.json
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/scopedcss/bundle/TrackingDataApi.styles.css
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.csproj.CopyComplete
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/refint/TrackingDataApi.dll
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.pdb
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/TrackingDataApi.genruntimeconfig.cache
+/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/TrackingDataApi/obj/Debug/net6.0/ref/TrackingDataApi.dll

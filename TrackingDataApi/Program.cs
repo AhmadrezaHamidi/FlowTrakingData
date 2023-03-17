@@ -23,7 +23,15 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddWorkFlowContext(connectionString);
 
 var app = builder.Build();
+
+
+
 ///var  ttt = app.Services.GetServices<IUnitOfWork<AppDbContext>>();
+
+
+
+
+
 
 //builder.Services.AddScoped<IUnitOfWork<AppDbContext>, UnitOfWork<AppDbContext>>();
 

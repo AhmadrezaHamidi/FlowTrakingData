@@ -83,7 +83,7 @@ public class FlowTracking : IFlowTracking
         }
     }
 
-    public string GoToNextStep(string flow, string userId)
+    public string GoToNextStep(string flowId, string userId)
     {
         var _flowType = unitOfWork.GetRepository<FlowType>();
         var _flowActivityType = unitOfWork.GetRepository<FlowActivityType>();
@@ -92,13 +92,17 @@ public class FlowTracking : IFlowTracking
         var _flowActivityService = unitOfWork.GetRepository<FlowActivity>();
         var _status = unitOfWork.GetRepository<Status>();
 
-        var flowFound = _flowService.GetFirstOrDefault(predicate: x => x.Id == flow);
-        if (flowFound is null)
+        var flow = _flowService.GetFirstOrDefault(predicate: x => x.Id == flowId);
+        if (flow is null)
             throw new Exception("Can not found requested flow");
 
 
+        var flowType = _flowType.GetFirstOrDefault(predicate: x => x.Id == flow.FlowTypeId);
+        if (flowType is null)
+            throw new Exception("Can not found  flow Type ");
+
         var lastActitvity = _flowActivityService
-            .GetFirstOrDefault(predicate: x => x.FlowId == flow, orderBy: y => y.OrderByDescending(z => z.CreatedAt));
+            .GetFirstOrDefault(predicate: x => x.FlowId == flowId, orderBy: y => y.OrderByDescending(z => z.CreatedAt));
         if (lastActitvity is null)
             throw new Exception("Can not found  flow Activity ");
 
@@ -116,14 +120,15 @@ public class FlowTracking : IFlowTracking
         if (lastActitvityState is null)
             throw new Exception($"last Actitvity is not success");
 
-        var nextActivityType = _flowActivityType.GetFirstOrDefault(predicate: x => x.Priority == lastActitvity.Priority + 1);
+        var nextActivityType = _flowActivityType
+            .GetFirstOrDefault(predicate: x => x.Priority == lastActitvity.Priority + 1  && x.Id == flowType.Id);
 
         if (nextActivityType is null)
             throw new Exception($"this Actitvity was Ended");
 
         var flowActivityInstance = new FlowActivity(
            lastActitvity.Id,
-           flow,
+           flowId,
            nextActivityType.Id,
            nextActivityType.Name,
            nextActivityType.Title,
