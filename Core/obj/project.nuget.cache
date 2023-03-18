@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "w9CGzMKacxiZgmVl4Dd6wfq111faDEEWTvk8S6NDjXwRBeLhakrMrybB1WhS/9V8n0ADC6LPkyknK2ifdSYKdA==",
+  "dgSpecHash": "U4lisZmDs5o7tRIS1ukgXQPTrPhmOy3wtpO3t87ZxiZsp0/wlWI7/jejsrgldhFMXz7tHnajoD5CHdLH+Z1/vw==",
   "success": true,
-  "projectFilePath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj",
-  "expectedPackageFiles": [
-    "/Users/ahmadhfr/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "/Users/ahmadhfr/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
-  ],
-  "logs": []
+  "projectFilePath": "D:\\Source\\FlowTrakingData\\Core\\Core.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.2.164/NugetServer/Nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

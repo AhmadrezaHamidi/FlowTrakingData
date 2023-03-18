@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/Logging.csproj": {}
+    "D:\\Source\\FlowTrakingData\\Logging\\Logging.csproj": {}
   },
   "projects": {
-    "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj": {
+    "D:\\Source\\FlowTrakingData\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj",
+        "projectUniqueName": "D:\\Source\\FlowTrakingData\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj",
-        "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
-        "outputPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/obj/",
+        "projectPath": "D:\\Source\\FlowTrakingData\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\a.ahmadi\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\FlowTrakingData\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\a.ahmadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.2.164/NugetServer/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,49 +51,42 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/Logging.csproj": {
+    "D:\\Source\\FlowTrakingData\\Logging\\Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/Logging.csproj",
+        "projectUniqueName": "D:\\Source\\FlowTrakingData\\Logging\\Logging.csproj",
         "projectName": "Logging",
-        "projectPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/Logging.csproj",
-        "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
-        "outputPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Logging/obj/",
+        "projectPath": "D:\\Source\\FlowTrakingData\\Logging\\Logging.csproj",
+        "packagesPath": "C:\\Users\\a.ahmadi\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\FlowTrakingData\\Logging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\a.ahmadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.2.164/NugetServer/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj": {
-                "projectPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/Core/Core.csproj"
+              "D:\\Source\\FlowTrakingData\\Core\\Core.csproj": {
+                "projectPath": "D:\\Source\\FlowTrakingData\\Core\\Core.csproj"
               }
             }
           }
@@ -115,22 +111,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

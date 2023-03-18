@@ -8354,24 +8354,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/ahmadhfr/.nuget/packages/": {}
+    "C:\\Users\\a.ahmadi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj",
+      "projectUniqueName": "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj",
       "projectName": "RepositoryEfCore",
-      "projectPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/RepositoryEfCore/RepositoryEfCore.csproj",
-      "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
-      "outputPath": "/Users/ahmadhfr/Documents/work/project/FlowTrackingOffical /FlowTrakingData/RepositoryEfCore/obj/",
+      "projectPath": "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\RepositoryEfCore.csproj",
+      "packagesPath": "C:\\Users\\a.ahmadi\\.nuget\\packages\\",
+      "outputPath": "D:\\Source\\FlowTrakingData\\RepositoryEfCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\a.ahmadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://192.168.2.164/NugetServer/Nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8422,23 +8425,21 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.2.164/NugetServer/Nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
